@@ -10,6 +10,7 @@ A QR Code generator using Thymeleaf and ZXing.
 ### Tech Stack
 - Spring Boot (JDK 17)
 - Thymeleaf
+- ZXing
 - Maven
 
 ### Setup & Launch
@@ -24,7 +25,7 @@ A QR Code generator using Thymeleaf and ZXing.
 2. Open browser at http://localhost:8080/
 
 #### QR Code Scanning
-Use a free QR Code Reader app to read a QR code image:
+Use a free QR Code Reader app to scan a QR code image:
 
 - [Google Play](https://play.google.com/store/apps/details?id=tw.mobileapp.qrcode.banner)
 - [Apple Store](https://apps.apple.com/us/app/qr-code-reader/id1200318119)
