@@ -28,6 +28,7 @@ public class QuarcodeController {
     @GetMapping(value = {"/", "/index"})
     public String index(Model model) {
         addCommonModelAttributes(model);
+        log.info(model.toString());
         return PAGE_INDEX;
     }
 
