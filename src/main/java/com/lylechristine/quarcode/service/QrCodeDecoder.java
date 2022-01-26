@@ -1,4 +1,4 @@
 package com.lylechristine.quarcode.service;
 
-public class QuarcodeDecoder {
+public class QrCodeDecoder {
 }

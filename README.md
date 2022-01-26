@@ -33,5 +33,5 @@ Use a free QR Code Reader app to scan a QR code image:
 <br/>
 
 #### Acknowledgements
-Based on the qr-code-generator app built by [Kai Saborowski](https://github.com/ksbrwsk).
+Based on the qr-code-generator app built by [Kai Saborowski](https://github.com/ksbrwsk/qrcode-generator).
 
