@@ -6,9 +6,7 @@ import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
-import com.lylechristine.quarcode.model.QrCodeProcessingResult;
-import com.lylechristine.quarcode.model.QrCodeUrl;
-import com.lylechristine.quarcode.model.QrCodeUrlParser;
+import com.lylechristine.quarcode.model.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.jetbrains.annotations.NotNull;
@@ -30,6 +28,21 @@ public class QrCodeEncoder {
 
     public QrCodeProcessingResult generateQrCodeUrl(QrCodeUrl qrCodeUrl) {
         String extracted = new QrCodeUrlParser(qrCodeUrl).parse();
+        return this.generateImageAsBase64(extracted);
+    }
+
+    public QrCodeProcessingResult generateQrCodeEmail(QrCodeEmail qrCodeEmail) {
+        String extracted = new QrCodeEmailParser(qrCodeEmail).parse();
+        return this.generateImageAsBase64(extracted);
+    }
+
+    public QrCodeProcessingResult generateQrCodeSms(QrCodeSms qrCodeSms) {
+        String extracted = new QrCodeSmsParser(qrCodeSms).parse();
+        return this.generateImageAsBase64(extracted);
+    }
+
+    public QrCodeProcessingResult generateQrCodePhone(QrCodePhone qrCodePhone) {
+        String extracted = new QrCodePhoneParser(qrCodePhone).parse();
         return this.generateImageAsBase64(extracted);
     }
 
