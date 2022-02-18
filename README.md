@@ -5,7 +5,8 @@
 # Quarcode
 
 ### Description
-A QR Code generator using Thymeleaf and ZXing.
+A QR Code generator using Thymeleaf and ZXing. Demo can be found hosted on Heroku:  
+https://quarcode.herokuapp.com/
 
 ### Tech Stack
 - Spring Boot (JDK 17)
@@ -25,7 +26,7 @@ A QR Code generator using Thymeleaf and ZXing.
 2. Open browser at http://localhost:8080/
 
 #### QR Code Scanning
-Use a free QR Code Reader app to scan a QR code image:
+Use a free QR Code Reader app to scan a QR code image on your phone:
 
 - [Google Play](https://play.google.com/store/apps/details?id=tw.mobileapp.qrcode.banner)
 - [Apple Store](https://apps.apple.com/us/app/qr-code-reader/id1200318119)
