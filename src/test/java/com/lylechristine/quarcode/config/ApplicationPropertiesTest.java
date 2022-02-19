@@ -24,6 +24,5 @@ public class ApplicationPropertiesTest {
     public void thatAppInfoIsValid() {
         String actual = this.applicationProperties.getAppInfo();
         assertNotNull(actual);
-        assertEquals("quarcode, 0.0.1-SNAPSHOT", actual);
     }
 }

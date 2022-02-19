@@ -15,6 +15,8 @@
     <description>QR Generator app using Thymeleaf and ZXing.</description>
     <properties>
         <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <webjars-locator.version>0.42</webjars-locator.version>
         <bootstrap.version>5.1.3</bootstrap.version>
         <font-awesome.version>5.15.4</font-awesome.version>
