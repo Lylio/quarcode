@@ -11,6 +11,9 @@ node {
 	    }
 
 	    stage('Run Unit Tests') {
+	        agent {
+	            docker { image 'openjdk:17' }
+	        }
         	        sh './mvnw test'
         	    }
 
