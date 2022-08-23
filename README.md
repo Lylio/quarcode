@@ -5,8 +5,8 @@
 # Quarcode
 
 ### Description
-A QR Code generator using Thymeleaf and ZXing. Demo can be found hosted on Heroku:  
-https://quarcode.herokuapp.com/
+A QR Code generator using Thymeleaf and ZXing. Demo can be found at:  
+https://quarcode.lyle.app/
 
 ### Tech Stack
 - Spring Boot (JDK 17)
