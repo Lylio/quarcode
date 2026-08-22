@@ -1,13 +1,14 @@
 # First build stage: install dependencies
-FROM maven:3.8.4-openjdk-17-slim AS build
-RUN mkdir -p /workspace
-WORKDIR /workspace
-COPY pom.xml /workspace
-COPY src /workspace/src
-RUN mvn -f pom.xml clean package
+FROM eclipse-temurin:17-jdk
 
-# Second build stage: run app
-FROM openjdk:17-jdk-slim
-COPY --from=build /workspace/target/*.jar app.jar
+WORKDIR /app
+
+COPY . .
+
+RUN chmod +x mvnw
+
+RUN ./mvnw clean package -DskipTests
+
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","app.jar"]
+
+CMD ["sh", "-c", "java -jar target/*.jar"]
