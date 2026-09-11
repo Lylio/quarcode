@@ -6,7 +6,7 @@
 
 |              |                                                                                                                                                                                                                               |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Demo Link    | [quarcode](quarcode-production-2d39.up.railway.app)                                                                                                                                                                          |
+| Demo Link    | <a href="quarcode-production-2d39.up.railway.app" target="_blank">Quarcode</a>                                                                                                                                                                         |
 | Tech Stack   | ![Spring Boot](https://img.shields.io/badge/springboot-000000?style=for-the-badge&logo=springboot&logoColor=green) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?logo=thymeleaf) ![ZXing](xing) ![Maven](https://img.shields.io/badge/MAVEN-000000?style=for-the-badge&logo=apachemaven&logoColor=blue) |
 | Cloud Deploy | ![Railway](https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white)|
 | Compiler     | ![Node](https://img.shields.io/badge/NODE%20-V.16.13.0-339933?style=for-the-badge)                                                                                                                                            |
