@@ -9,13 +9,13 @@
 | Demo Link    | <a href="quarcode-production-2d39.up.railway.app" target="_blank">Quarcode</a>                                                                                                                                                                         |
 | Tech Stack   | ![Spring Boot](https://img.shields.io/badge/springboot-000000?style=for-the-badge&logo=springboot&logoColor=green) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?logo=thymeleaf) ![ZXing](xing) ![Maven](https://img.shields.io/badge/MAVEN-000000?style=for-the-badge&logo=apachemaven&logoColor=blue) |
 | Cloud Deploy | ![Railway](https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white)|
-| Compiler     | ![Node](https://img.shields.io/badge/NODE%20-V.16.13.0-339933?style=for-the-badge)                                                                                                                                            |
-| Top Language | ![Github Language](https://img.shields.io/github/languages/top/lylio/tic-tac-toe?style=for-the-badge)                                                                                                                         |
-| Last Commit  | ![Github Commit Activity](https://img.shields.io/github/last-commit/lylio/tic-tac-toe/main?style=for-the-badge)                                                                                                               |
+| Compiler     | ![Java 17](https://img.shields.io/badge/Java%20version-17-yellow?logo=java)                                                                                                                                            |
+| Top Language | ![Github Language](https://img.shields.io/github/languages/top/lylio/quarcode?style=for-the-badge)                                                                                                                         |
+| Last Commit  | ![Github Commit Activity](https://img.shields.io/github/last-commit/lylio/quarcode/main?style=for-the-badge)                                                                                                               |
 
 ### Description
 A QR Code generator using Thymeleaf and ZXing. Demo can be found at:  
-https://quarcode.lyle.app/
+quarcode-production-2d39.up.railway.app
 
 ### Tech Stack
 - Spring Boot (JDK 17)
