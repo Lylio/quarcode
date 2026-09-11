@@ -4,6 +4,15 @@
 
 # Quarcode
 
+|              |                                                                                                                                                                                                                               |
+|--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Demo Link    | [quarcode](quarcode-production-2d39.up.railway.app)                                                                                                                                                                          |
+| Tech Stack   | ![Spring Boot](#6DB33F?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Thymeleaf](thymeleaf) ![ZXing](xing) ![Maven](apachemaven) |
+| Cloud Deploy | ![Azure](https://img.shields.io/badge/microsoft%20azure-0078D4.svg?style=for-the-badge&logo=microsoft%20azure&logoColor=white)                                                                                                |
+| Compiler     | ![Node](https://img.shields.io/badge/NODE%20-V.16.13.0-339933?style=for-the-badge)                                                                                                                                            |
+| Top Language | ![Github Language](https://img.shields.io/github/languages/top/lylio/tic-tac-toe?style=for-the-badge)                                                                                                                         |
+| Last Commit  | ![Github Commit Activity](https://img.shields.io/github/last-commit/lylio/tic-tac-toe/main?style=for-the-badge)                                                                                                               |
+
 ### Description
 A QR Code generator using Thymeleaf and ZXing. Demo can be found at:  
 https://quarcode.lyle.app/
