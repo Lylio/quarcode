@@ -14,7 +14,7 @@
 | Last Commit  | ![Github Commit Activity](https://img.shields.io/github/last-commit/lylio/quarcode/main?style=for-the-badge)                                                                                                               |
 
 ### Description
-A QR Code generator using Thymeleaf and ZXing. Demo can be found at:  
+A QR Code generator using Thymeleaf and ZXing. Demo can be found at (copy and paste link):  
 [quarcode-production-2d39.up.railway.app](quarcode-production-2d39.up.railway.app)
 
 ### Tech Stack
